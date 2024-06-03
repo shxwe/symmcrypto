@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(media/bg.jpg), fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 40px;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    background: #fff;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 0 4% !important;
+    box-shadow: 0 5px 10px #000;
+}
+
+header .logo {
+    font-size: 20px;
+    font-weight: 900;
+    color: #000;
+    transition: .5s;
+    /* position: relative;
+    right: 80px; */
+}
+
+header .logo:hover {
+    transform: scale(1.2);
+}
+
+header nav ul li {
+    position: relative;
+    float: left;
+}
+
+header nav ul li a {
+    padding: 15px;
+    color: #000;
+    font-size: 16px;
+    display: block;
+}
+
+header nav ul li a:hover {
+    background: #000;
+    color: #fff;
+    transition: .5s;
+}
+
+nav ul li ul {
+    position: absolute;
+    left: 0;
+    width: 180px;
+    background: #fff;
+    display: none;
+}
+
+nav ul li ul li {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0,.1);
+}
+
+nav ul li:hover > ul {
+    display: initial;
+}
+
+div {
+    max-width: 1170px;
+    margin: 0 auto;
+    /* padding-top: 25px; */
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+div .h {
+    color: #ffffff;
+    font-size: 26px;
+}
+
+.inf {
+    position: relative;
+    top: 18px;  
+    display: inline;
+    width: 100vw;
+    height: 80vh;
+    margin-top: 5vh;
+    padding-top: 20px;
+}
+
+.fst {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+}
+
+.text {
+    margin-bottom: 10px;
+}
+li.list{
+    margin-left: 20px;
+    list-style-type: disc;
+    display: list-item !important;
+}
+
+.none{
+    margin-left: 22px;
+    list-style-type: none;
+}
+
+li.nums {
+    margin-left: 4%;
+    padding-left: 10px; 
+    display: list-item !important;
+    list-style: decimal;
+}
+
+.line {
+    width: 180px;
+    border-top: 2px solid #191919;
+}
+
+img {
+    width: 45px;
+    height: 45px;
+}
